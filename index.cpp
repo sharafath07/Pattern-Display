@@ -16,7 +16,6 @@ int main()
     cin >> num;
 
     if (cond == in || cond == In) {
-        // Correct increasing pattern
         for (i = 1; i <= num; i++) {
             for (j = 1; j <= i; j++) {
                 cout << " " << pat;
@@ -25,7 +24,6 @@ int main()
         }
     } 
     else if (cond == d || cond == D) {
-        // Correct decreasing pattern
         for (i = num; i >= 1; i--) {
             for (j = 1; j <= i; j++) {
                 cout << " " << pat;
